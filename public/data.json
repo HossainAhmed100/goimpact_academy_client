@@ -1,0 +1,125 @@
+[
+    {
+        "_id": "13243542165876",
+        "thumbnail": "https://i.ibb.co/PxcP3Dt/course-Thumbnail.jpg",
+        "title": "Content Creation Bootcamp (Batch 02)",
+        "price": 9990,
+        "enrollment_validity": "Lifetime",
+        "course_level": "All Levels",
+        "total_lessons": 62,
+        "duration": "100",
+        "course_details_overview": [
+            "Level Up Your Content Creation Game: Join Our Bootcamp & Be a Star!",
+            "Craving to master content creation and crush your content goals? Our bootcamp is here to make it happen!",
+            "Here's what you'll get:",
+            "From beginner to pro: Master all the content creation skills you need, from the basics to advanced techniques.",
+            "Hook your audience: Learn how to craft compelling stories that keep people glued to your content.",
+            "Analytics mastery: Optimize your content for maximum reach and impact.",
+            "Own your brand: Develop a unique and powerful personal brand identity.",
+            "Get hands-on experience: Master video editing and design through real-world exercises.",
+            "Collab like a pro: Learn the secrets of successful brand collaborations.",
+            "Industry insider tips: Hear from the best and learn the latest trends and strategies.",
+            "Synergy is key: Combine your skills, learn from others, and refine your craft.",
+            "Unlock content creation secrets: Discover the powerful techniques used by successful creators.",
+            "Be a leader: Propel yourself to the forefront of this dynamic industry.",
+            "Ready to shine? Join our Content Creation Bootcamp and unleash your inner creative beast!",
+            "No more nonsense, just clear benefits and excitement!"
+        ],
+        "course_curriculum": [
+            {
+                "title": "How to hook your audience!",
+                "lesson_number": 1,
+                "lesson_type": "Class Video",
+                "instructor": "Hafizun Sufie"
+            },
+            {
+                "title": "How to Pick an Idea & The Process of Script Writing",
+                "lesson_number": 2,
+                "lesson_type": "Class Video",
+                "instructor": "Hafizun Sufie"
+            }
+        ]
+    },
+    {
+        "_id": "13243542165876",
+        "thumbnail": "https://i.ibb.co/PxcP3Dt/course-Thumbnail.jpg",
+        "title": "Content Creation Bootcamp (Batch 02)",
+        "price": 9990,
+        "enrollment_validity": "Lifetime",
+        "course_level": "All Levels",
+        "total_lessons": 62,
+        "duration": "100",
+        "course_details_overview": [
+            "Level Up Your Content Creation Game: Join Our Bootcamp & Be a Star!",
+            "Craving to master content creation and crush your content goals? Our bootcamp is here to make it happen!",
+            "Here's what you'll get:",
+            "From beginner to pro: Master all the content creation skills you need, from the basics to advanced techniques.",
+            "Hook your audience: Learn how to craft compelling stories that keep people glued to your content.",
+            "Analytics mastery: Optimize your content for maximum reach and impact.",
+            "Own your brand: Develop a unique and powerful personal brand identity.",
+            "Get hands-on experience: Master video editing and design through real-world exercises.",
+            "Collab like a pro: Learn the secrets of successful brand collaborations.",
+            "Industry insider tips: Hear from the best and learn the latest trends and strategies.",
+            "Synergy is key: Combine your skills, learn from others, and refine your craft.",
+            "Unlock content creation secrets: Discover the powerful techniques used by successful creators.",
+            "Be a leader: Propel yourself to the forefront of this dynamic industry.",
+            "Ready to shine? Join our Content Creation Bootcamp and unleash your inner creative beast!",
+            "No more nonsense, just clear benefits and excitement!"
+        ],
+        "course_curriculum": [
+            {
+                "title": "How to hook your audience!",
+                "lesson_number": 1,
+                "lesson_type": "Class Video",
+                "instructor": "Hafizun Sufie"
+            },
+            {
+                "title": "How to Pick an Idea & The Process of Script Writing",
+                "lesson_number": 2,
+                "lesson_type": "Class Video",
+                "instructor": "Hafizun Sufie"
+            }
+        ]
+    },
+    {
+        "_id": "13242642165876",
+        "thumbnail": "https://i.ibb.co/PxcP3Dt/course-Thumbnail.jpg",
+        "title": "Content Creation Bootcamp (Batch 02)",
+        "price": 9990,
+        "enrollment_validity": "Lifetime",
+        "course_level": "All Levels",
+        "total_lessons": 62,
+        "duration": "100",
+        "course_details_overview": [
+            "Level Up Your Content Creation Game: Join Our Bootcamp & Be a Star!",
+            "Craving to master content creation and crush your content goals? Our bootcamp is here to make it happen!",
+            "Here's what you'll get:",
+            "From beginner to pro: Master all the content creation skills you need, from the basics to advanced techniques.",
+            "Hook your audience: Learn how to craft compelling stories that keep people glued to your content.",
+            "Analytics mastery: Optimize your content for maximum reach and impact.",
+            "Own your brand: Develop a unique and powerful personal brand identity.",
+            "Get hands-on experience: Master video editing and design through real-world exercises.",
+            "Collab like a pro: Learn the secrets of successful brand collaborations.",
+            "Industry insider tips: Hear from the best and learn the latest trends and strategies.",
+            "Synergy is key: Combine your skills, learn from others, and refine your craft.",
+            "Unlock content creation secrets: Discover the powerful techniques used by successful creators.",
+            "Be a leader: Propel yourself to the forefront of this dynamic industry.",
+            "Ready to shine? Join our Content Creation Bootcamp and unleash your inner creative beast!",
+            "No more nonsense, just clear benefits and excitement!"
+        ],
+        "course_curriculum": [
+            {
+                "title": "How to hook your audience!",
+                "lesson_number": 1,
+                "lesson_type": "Class Video",
+                "instructor": "Hafizun Sufie"
+            },
+            {
+                "title": "How to Pick an Idea & The Process of Script Writing",
+                "lesson_number": 2,
+                "lesson_type": "Class Video",
+                "instructor": "Hafizun Sufie"
+            }
+        ]
+    }
+]
