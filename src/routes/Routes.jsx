@@ -25,6 +25,7 @@ import Blog from "../pages/blog/Blog";
 import ReadBlogPage from "../pages/blog/ReadBlogPage";
 import PostNewBlog from "../pages/admin/blog/PostNewBlog";
 import UpdateBlog from "../pages/admin/blog/UpdateBlog";
+import ReturnAndRefundPolicyPage from "../pages/policy/ReturnAndRefundPolicyPage";
 
 const router = createBrowserRouter([
   {
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
       { path: "/blog", element: <Blog /> },
       { path: "/blog/:id", element: <ReadBlogPage /> },
       { path: "/contact", element: <Contact /> },
-      { path: "/all-products", element: <AllProductsPage /> },
+      { path: "/all-courses", element: <AllProductsPage /> },
       {
         path: "/all-courses/:coursesId",
         element: <ProductDetailsPage />,
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
       { path: "/cookies-policy", element: <CookiesPolicyPage /> },
       { path: "/company-license", element: <CompanyLicensePage /> },
       { path: "/terms-and-conditions", element: <TermsAndConditionsPage /> },
+      { path: "/return-and-refund", element: <ReturnAndRefundPolicyPage /> },
       { path: "/privacy-policy", element: <PrivacyPolicyPage /> },
     ],
   },

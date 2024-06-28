@@ -11,10 +11,10 @@ function Footer() {
 }
 
 return (
-  <footer className="bg-white  border-t-1">
+  <footer className="bg-white pt-10 border-t-1">
     <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 min-[1130px]:grid-cols-12 gap-8 lg:gap-0 py-10 border-gray-200">
-      <div className="min-[1130px]:col-span-5 col-span-1 w-full min-[1130px]:max-w-full mx-auto">
+      <div className="min-[1130px]:col-span-4 col-span-1 w-full min-[1130px]:max-w-full mx-auto">
         <div className="flex flex-col gap-8 w-full px-4">
           <Link href="/" color="foreground">
               <Image src={Logo} className="w-44"/>
@@ -209,7 +209,7 @@ return (
           </div>
         </div>
       </div>
-      <div className="min-[1130px]:col-span-7 max-[1130px]:pt-10 lg:pl-14 col-span-1 w-full min-[1130px]:max-w-full mx-auto flex flex-col sm:flex-row justify-between gap-6 px-4">
+      <div className="min-[1130px]:col-span-8 max-[1130px]:pt-10 lg:pl-14 col-span-1 w-full min-[1130px]:max-w-full mx-auto flex flex-col sm:flex-row justify-between gap-6 px-4">
           <div className=" md:col-span-1">
             <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pages</h4>
             <ul className=" transition-all duration-500">
@@ -221,13 +221,13 @@ return (
             </ul>
           </div>
           <div className=" md:col-span-1">
-            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Support</h4>
+            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Support Links</h4>
             <ul className=" transition-all duration-500">
-              <li className="mb-6"><FooterLink path={"/contact"} title={"Custome Support"}/></li>
               <li className="mb-6"><FooterLink path={"/cookies-policy"} title={"Cookies"}/></li>
               <li className="mb-6"><FooterLink path={"/company-license"} title={"Lincense"}/></li>
-              <li className="mb-6"><FooterLink path={"/terms-and-conditions"} title={"Terms & Contitions"}/></li>
               <li className="mb-6"><FooterLink path={"/privacy-policy"} title={"Privacy Policy"}/></li>
+              <li className="mb-6"><FooterLink path={"/terms-and-conditions"} title={"Terms & Contitions"}/></li>
+              <li className="mb-6"><FooterLink path={"/return-and-refund"} title={"Return and Refund Policy"}/></li>
             </ul>
           </div>
           <div className=" md:col-span-1">
