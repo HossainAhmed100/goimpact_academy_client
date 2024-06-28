@@ -85,7 +85,7 @@ function NavBar() {
         <NavLink to="/">HOME</NavLink>
       </NavbarItem>
       <NavbarItem>
-        <NavLink to="/courses">কনটেন্ট ক্রিয়েটর</NavLink>
+        <NavLink to="/courses">COURSES</NavLink>
       </NavbarItem>
       <NavbarItem>
         <NavLink to="/instructor">INSTRUCTORS</NavLink>
@@ -114,7 +114,7 @@ function NavBar() {
             <User   
               as="button"
               name={"Hossain Ahmed"}
-              description="Product Designer"
+              description="hossain@gmail.com"
               className="transition-transform"
               avatarProps={{
                 src: "https://avatar.iran.liara.run/public"

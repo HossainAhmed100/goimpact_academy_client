@@ -13,13 +13,20 @@ function OurCourses() {
   })
   return (
     <div className="py-6 sm:py-8 lg:py-16 px-4 md:px-8">
+      <div className="flex items-end justify-between py-6">
+        <div>
+          <p className="font-medium text-secondary">Our Courses</p>
+          <h1 className="max-w-[600px] text-gray-900 text-4xl font-semibold">
+          Explore Featured Courses
+          </h1>
+        </div>
+        <Button radius="sm" size="sm" color="secondary" as={Link} href="/all-products" 
+         endContent={<FaArrowRightLong size={12}/>}>
+          VIEW ALL
+        </Button> 
+      </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 py-6">
         {courses.map((item) => <ProductCard key={item?._id} product={item}/>)}
-      </div>
-      <div className="flex items-center justify-center py-6">
-        <Button radius="sm" as={Link} href="/all-products" className="bg-indigo-500 text-white font-medium" endContent={<FaArrowRightLong size={18}/>}>
-          View All Products
-        </Button> 
       </div>
     </div>
   )
