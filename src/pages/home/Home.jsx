@@ -1,7 +1,5 @@
-import { Helmet } from "react-helmet-async"
-import FlashSeles from "./flash-sales/FlashSeles"
-import OurCourses from "./our-courses/OurCourses"
-import Banner from "./banner/Banner"
+import { Helmet } from "react-helmet-async";
+import OurCourses from "./our-courses/OurCourses";
 
 function Home() {
   return (

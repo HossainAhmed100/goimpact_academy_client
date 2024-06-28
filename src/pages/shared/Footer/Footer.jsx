@@ -1,6 +1,9 @@
-import { Avatar, AvatarGroup,Button, Input, Link } from "@nextui-org/react"
+import { Avatar, AvatarGroup,Button, Image, Input, Link } from "@nextui-org/react"
 import { HiOutlineMail } from "react-icons/hi";
-import { FaFacebook, FaInstagram, FaYoutube  } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaMapMarkerAlt } from "react-icons/fa";
+import Logo from "../../../assets/logo.png";
+import { MdEmail, MdLocalPhone } from "react-icons/md";
+import PaymentOptions from "../../../assets/images/ssl.png"
 
 function Footer() {
   const getYear = () => {
@@ -10,26 +13,23 @@ function Footer() {
 return (
   <footer className="bg-white  border-t-1">
     <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 min-[1130px]:grid-cols-12 gap-8 lg:gap-0 py-10 border-b-2 border-gray-200">
+    <div className="grid grid-cols-1 min-[1130px]:grid-cols-12 gap-8 lg:gap-0 py-10 border-gray-200">
       <div className="min-[1130px]:col-span-5 col-span-1 w-full min-[1130px]:max-w-full mx-auto">
         <div className="flex flex-col gap-8 w-full px-4">
           <Link href="/" color="foreground">
-          <div className="flex flex-col items-start gap-2 justify-center">
-            <p className="font-bold text-inherit text-xl">Zephyra</p>
-            <p className="text-inherit text-base text-gray-400">Best Online Shop in Bangladesh</p>
-          </div>
+              <Image src={Logo} className="w-44"/>
           </Link>
           <div className="flex min-[470px]:flex-row items-center gap-3 w-full">
           <div className="relative  text-gray-500 focus-within:text-gray-900 max-sm:w-full">
             <Input
               type="email"
-              placeholder="support@zephyra.com"
+              placeholder="example@gmail.com.com"
               startContent={
                 <HiOutlineMail size={24} color="gray"/> 
               }
             />
           </div>
-          <Button radius="sm" size="md" color="primary">Subscribe</Button>
+          <Button radius="sm" size="md" color="secondary">Subscribe</Button>
           </div>
           <div className="flex items-start">
           <AvatarGroup
@@ -214,10 +214,10 @@ return (
             <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Pages</h4>
             <ul className=" transition-all duration-500">
               <li className="mb-6"><FooterLink path={"/"} title={"Home"}/></li>
-              <li className="mb-6"><FooterLink path={"/about"} title={"About"}/></li>
-              <li className="mb-6"><FooterLink path={"/contact"} title={"Contact"}/></li>
-              <li className="mb-6"><FooterLink path={"/"} title={"Flash Sales"}/></li>
-              <li className="mb-6"><FooterLink path={"/all-products"} title={"Product"}/></li>
+              <li className="mb-6"><FooterLink path={"/about"} title={"Courses"}/></li>
+              <li className="mb-6"><FooterLink path={"/instructors"} title={"Instructor"}/></li>
+              <li className="mb-6"><FooterLink path={"/about"} title={"About us"}/></li>
+              <li className="mb-6"><FooterLink path={"/contact"} title={"Contact us"}/></li>
             </ul>
           </div>
           <div className=" md:col-span-1">
@@ -231,19 +231,42 @@ return (
             </ul>
           </div>
           <div className=" md:col-span-1">
-            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Support</h4>
+            <h4 className="text-lg text-gray-900 font-medium mb-7 text-left">Get in Touch</h4>
             <ul className=" transition-all duration-500">
-              <li className="mb-6"><FooterLink path={"/contact"} title={"Custome Support"}/></li>
-              <li className="mb-6"><FooterLink path={"/cookies-policy"} title={"Cookies"}/></li>
-              <li className="mb-6"><FooterLink path={"/company-license"} title={"Lincense"}/></li>
-              <li className="mb-6"><FooterLink path={"/terms-and-conditions"} title={"Terms & Contitions"}/></li>
-              <li className="mb-6"><FooterLink path={"/privacy-policy"} title={"Privacy Policy"}/></li>
+              <li className="mb-6">
+                <div className="flex items-start text-foreground">
+                <FaMapMarkerAlt />
+                <span className=" -mt-1 ml-1 max-w-60">
+                  Avenue 06, Road 10, House 771, Mirpur DOHS, Dhaka, Bangladesh
+                </span>
+                </div>
+              </li>
+              <li className="mb-6">
+                <div className="flex items-center text-foreground">
+                <MdEmail />
+                <span className="ml-1 max-w-60">
+                support@goimpact.academy
+                </span>
+                </div>
+              </li>
+              <li className="mb-6">
+                <div className="flex items-center text-foreground">
+                <MdLocalPhone size={20}/>
+                <span className="ml-1 max-w-60">
+                +880 1328-981234
+                </span>
+                </div>
+              </li>
             </ul>
           </div>
       </div>
     </div>
+    <div className="gap-5 border-b-2 flex-col items-center flex  justify-center py-7">
+      <p className="text-base text-black">Trade license Number: TRAD/DSCC/040936/2022</p>
+    <Image src={PaymentOptions}/>
+    </div>
     <div className="flex flex-col-reverse gap-5 md:flex-row items-center first-letter:items-center justify-between py-7">
-      <p className="text-sm text-gray-400">© Hossain Ahmed {getYear()} All rights reserved.</p>
+      <p className="text-sm text-gray-600">© Hossain Ahmed {getYear()} All rights reserved.</p>
       <div className="flex items-center gap-4">
         <button
           className="w-9 h-9 flex items-center relative border border-gray-300 overflow-hidden justify-center rounded-full bg-white shadow-sm shadow-gray-200 group transition-all duration-300 focus-within:outline-0">

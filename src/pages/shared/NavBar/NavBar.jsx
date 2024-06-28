@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useState } from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Avatar, DropdownMenu, DropdownItem, DropdownTrigger, Dropdown, Button, DropdownSection, Link, Image, User} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, DropdownMenu, DropdownItem, DropdownTrigger, Dropdown, Button, DropdownSection, Link, Image, User} from "@nextui-org/react";
 import { useNavigate, NavLink } from "react-router-dom";
 import { useSignOut, useAuthState } from "react-firebase-hooks/auth";
 import { VscSignOut, VscFeedback } from "react-icons/vsc";
 import Swal from "sweetalert2";
 import {auth} from "../../../firebase/firebase.config";
 import "./NavBar.css";
-import Logo from "../../../assets/logo.png"
+import Logo from "../../../assets/logo.png";
 
 
 function NavBar() {
