@@ -85,7 +85,7 @@ function NavBar() {
         <NavLink to="/">HOME</NavLink>
       </NavbarItem>
       <NavbarItem>
-        <NavLink to="/courses">COURSES</NavLink>
+        <NavLink to="/all-courses">COURSES</NavLink>
       </NavbarItem>
       <NavbarItem>
         <NavLink to="/instructor">INSTRUCTORS</NavLink>

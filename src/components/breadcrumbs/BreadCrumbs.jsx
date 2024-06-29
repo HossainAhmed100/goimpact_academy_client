@@ -3,12 +3,12 @@ import { useLocation , useLoaderData } from 'react-router-dom';
 
 const breadcrumbsData = [
   { title: "Home", path: "/" },
-  { title: "About", path: "/about" },
+  { title: "About us", path: "/about" },
   { title: "Blog", path: "/blog" },
   { title: "Read Blog", path: "/blog/:id" },
-  { title: "Contact", path: "/contact" },
-  { title: "All Products", path: "/all-products" },
-  { title: "Product Details", path: "/all-products/:id", regex: /^\/all-products\/[^\/]+$/ },
+  { title: "Contact us", path: "/contact" },
+  { title: "All Courses", path: "/all-courses" },
+  { title: "Courses Details", path: "/all-courses/:id", regex: /^\/all-products\/[^\/]+$/ },
   { title: "Login", path: "/login" },
   { title: "Register", path: "/register" },
   { title: "Cookies Policy", path: "/cookies-policy" },
