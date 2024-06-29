@@ -1,4 +1,3 @@
-import { Card, CardBody } from "@nextui-org/react";
 
 // Array of statistics data
 const stats = [
@@ -10,23 +9,15 @@ const stats = [
 
 const StatisticsSection = () => {
   return (
-    <section className="bg-background py-12 md:py-16 lg:py-20">
+    <section className="bg-gray-100 py-8 rounded-lg">
       <div className="container px-4 md:px-6">
-        <div className="text-center space-y-4 mb-8 md:mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Achievements</h2>
-          <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl/relaxed">
-            We're proud of the work we've done and the impact we've made. Here are some of our key achievements.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 divide-x-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((item,index) => {
                 return (
-                  <Card key={index}>
-                    <CardBody className="text-center py-8 space-y-2">
-                      <div className="text-4xl font-bold">{item.value}</div>
-                      <div className="text-muted-foreground">{item.label}</div>
-                    </CardBody>
-                  </Card>
+                <div key={index} className="text-center py-8 space-y-2">
+                    <div className="text-4xl text-secondary font-bold">{item.value}</div>
+                    <div className="text-muted-foreground">{item.label}</div>
+                </div>
                 )
   
             })}
