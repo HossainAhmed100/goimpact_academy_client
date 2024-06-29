@@ -45,7 +45,7 @@ const ProductDetailsPage = () => {
 
   return (
     <div className='max-w-6xl px-4 mx-auto py-10'>
-    <Helmet title={`${product?.name} | Zephyra Online Shop`}/>
+    <Helmet title={`${product?.name} | Impect Academy Online Shop`}/>
     <div className="pb-8">
         <Breadcrumb />
       </div>

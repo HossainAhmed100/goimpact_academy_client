@@ -377,7 +377,7 @@ export default function ManageProductsPage() {
 
   return (
     <>
-    <Helmet title='Manage All Product | Admin - Dashbaord | Zephyra Online Shop '/>
+    <Helmet title='Manage All Product | Admin - Dashbaord | Impect Academy Online Shop '/>
     <Table
     radius="sm"
     aria-label="Example table with custom cells, pagination and sorting"

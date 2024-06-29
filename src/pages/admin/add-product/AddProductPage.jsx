@@ -65,7 +65,7 @@ function AddProductPage() {
 
   return (
     <section>
-      <Helmet title='Add New Product | Admin - Dashboard | Zephyra Online Shop' />
+      <Helmet title='Add New Product | Admin - Dashboard | Impect Academy Online Shop' />
       <form onSubmit={handleSubmit(onSubmit)}>
       <div className="space-y-4">
         

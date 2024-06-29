@@ -32,7 +32,7 @@ function DashboardLayout() {
                   <ThreeLineIcon />
               </button>
               <Link href="/" className="flex ms-2 md:me-24" color="foreground">
-                <span className="self-center text-xl font-semibold sm:text-2xl whitespace-">Zephyra</span>
+                <span className="self-center text-xl font-semibold sm:text-2xl whitespace-">Impect Academy</span>
               </Link>
             </div>
             <div className="flex items-center">

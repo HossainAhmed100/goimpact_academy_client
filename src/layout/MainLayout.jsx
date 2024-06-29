@@ -8,7 +8,7 @@ function MainLayout({children}) {
   const navigate = useNavigate();
   return (
     <NextUIProvider navigate={navigate}>
-    <div className="bg-gray-50">
+    <div>
     <NavBar />
     <Outlet>{children}</Outlet>
     <Footer />

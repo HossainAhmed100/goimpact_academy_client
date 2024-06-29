@@ -7,7 +7,7 @@ export default function AdminDashboardPage() {
 
   return (
     <div>
-      <Helmet title="Admin - Dashbaord | Zephyra Online Shop"/>
+      <Helmet title="Admin - Dashbaord | Impect Academy Online Shop"/>
       <div className="flex flex-col min-h-screen">
       <main className="flex-1 grid gap-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">

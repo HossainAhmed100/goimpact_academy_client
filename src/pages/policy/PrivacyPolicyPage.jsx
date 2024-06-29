@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
           <div>
             <h1 className="text-3xl font-bold">Privacy Policy</h1>
             <p className="mt-4 text-gray-500 dark:text-gray-400">
-              At Zephyra E-Commerce, we are committed to protecting the privacy and security of your personal information.
+              At Impect Academy E-Commerce, we are committed to protecting the privacy and security of your personal information.
               This privacy policy explains how we collect, use, and safeguard your data.
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function PrivacyPolicyPage() {
             <p className="mt-4 text-gray-500 dark:text-gray-400">
               If you have any questions or concerns about our privacy practices, please contact us at{" "}
               <Link to="/contact" className="text-blue-500 hover:underline">
-                privacy@zephyra.com
+                privacy@Impect Academy.com
               </Link>
               .
             </p>

@@ -18,7 +18,7 @@ export default function EditProfilePage() {
   
   return (
     <div className="w-full">
-      <Helmet title='Update Profile | Zephyra Online Shop'/>
+      <Helmet title='Update Profile | Impect Academy Online Shop'/>
       <div>
         <form onSubmit={handleSubmit(onSubmit)} className="grid md:grid-cols-3 grid-cols-1 gap-4">
         <div className="flex min-w-full flex-col gap-6 md:col-span-2">

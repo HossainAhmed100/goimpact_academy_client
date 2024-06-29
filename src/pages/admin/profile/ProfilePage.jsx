@@ -10,7 +10,7 @@ export default function MyProfile() {
   
   return (
     <div className="w-full">
-      <Helmet title='My Account | Zephyra Online Shop'/>
+      <Helmet title='My Account | Impect Academy Online Shop'/>
       <div>
         <div className="flex items-start md:flex-row flex-col justify-start gap-2">
           <Avatar isBordered src="https://avatar.iran.liara.run/public" className="w-16 h-16 text-large" />
