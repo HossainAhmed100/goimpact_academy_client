@@ -2,7 +2,7 @@
     {
         "_id": "13243542165876",
         "thumbnail": "https://i.ibb.co/PxcP3Dt/course-Thumbnail.jpg",
-        "title": "Content Creation Bootcamp (Batch 02)",
+        "title": "Content Creation Bootcamp (Batch 01)",
         "price": 9990,
         "batch": "01",
         "timer": false,
@@ -88,7 +88,7 @@
     {
         "_id": "13242642165876",
         "thumbnail": "https://i.ibb.co/PxcP3Dt/course-Thumbnail.jpg",
-        "title": "Content Creation Bootcamp (Batch 02)",
+        "title": "Content Creation Bootcamp (Batch 03)",
         "price": 9990,
         "batch": "03",
         "timer": true,

@@ -62,9 +62,14 @@ function NavBar() {
     });
   }};
   return (
+    <>
+    <div className="flex items-center justify-center gap-4 bg-gray-900 px-4 py-3 text-white">
+      <p className="text-sm font-medium"> Use code <span className="bg-amber-500">IMPACT50</span> FOR 50% Scholarship </p>
+    </div>
     <Navbar
     className={`transition-transform duration-300 transform ${show ? 'translate-y-0' : '-translate-y-full'}`} isBordered onMenuOpenChange={setIsMenuOpen} 
     >
+      
     <NavbarContent >
       {/* Mobile menu toggle button */}
       <NavbarMenuToggle
@@ -195,6 +200,7 @@ function NavBar() {
         </NavbarMenuItem>
     </NavbarMenu>
     </Navbar>
+    </>
   );
 }
 

@@ -10,7 +10,7 @@ function MentionedOn() {
   return (
     <div className="flex flex-col gap-4 md:gap-16 py-16">
         <h1 className="text-5xl text-black text-center font-semibold">Mentioned On</h1>
-      <div className="flex items-center">
+      <div className="flex items-center overflow-hidden">
         <img src={Brand1} alt="Brand 1" className="w-full h-32" />
         <img src={Brand2} alt="Brand 2" className="w-full h-32" />
         <img src={Brand3} alt="Brand 3" className="w-full h-32" />

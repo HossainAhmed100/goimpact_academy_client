@@ -3,7 +3,21 @@ import { Button, Link } from "@nextui-org/react";
 // OurMission component definition
 const OurMission = () => {
   return (
-    <section className="max-w-6xl m-auto py-12 md:py-24 lg:py-32 bg-muted">
+    <section className="py-12 md:py-24 min-h-screen relative isolate lg:py-32 px-4 md:px-8 bg-muted">
+
+      {/* Top gradient background */}
+      <div
+          className="absolute inset-x-0  -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-60"
+          aria-hidden="true"
+        >
+          <div
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#b7b2f8] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            style={{
+              clipPath:
+                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+            }}
+          />
+        </div>
       <div className="flex flex-col items-center justify-center space-y-8 text-center">
         {/* Section heading */}
         <div className="space-y-4">
@@ -14,9 +28,8 @@ const OurMission = () => {
             Our bootcamp transforms aspiring content creators into skilled professionals with hands-on learning, expert guidance, and community support.
           </p>
         </div>
-
         {/* Features section */}
-        <div className="grid py-6 max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
+        <div className="grid py-6 m-auto max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
         <ContentCard 
           icons={<BrushIcon className="h-8 w-8 text-secondary" />} 
           title={"Creative Expression"} 
@@ -39,13 +52,28 @@ const OurMission = () => {
           <Button radius="sm" size="lg" as={Link} href="/all-courses" variant="bordered" color="default">View Details</Button>
         </div>
       </div>
+
+       {/* Bottom gradient background */}
+       <div
+          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true"
+        >
+          <div
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style={{
+              clipPath:
+                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+            }}
+          />
+        </div>
+
     </section>
   );
 }
 
 const ContentCard = ({icons, title, content}) => {
    return(
-    <div className="flex rounded-lg  border hover:border-secondary transition-all duration-300 cursor-pointer px-6 py-6 flex-col items-start gap-2">
+    <div className="flex rounded-lg bg-white  border hover:border-secondary transition-all duration-300 cursor-pointer px-6 py-6 flex-col items-start gap-2">
     <div className="py-4">{icons}</div>
     <h3 className="text-lg font-semibold">{title}</h3>
     <p className="text-muted-foreground text-start">{content}</p>
