@@ -157,18 +157,18 @@ const Login = () => {
                 {/* Remember me checkbox and Forgot Password link */}
                 <div className="flex items-center justify-between pb-3">
                   <Checkbox size="sm" defaultChecked>Remember me</Checkbox>
-                  <Link className="text-sm text-blue-500 font-medium">
+                  <Link color="secondary">
                     Forgot Password?
                   </Link>
                 </div>
                 {/* Login Form Submit button */}
-                <Button isLoading={loading} type="submit" color="primary">Sign in</Button>
+                <Button isLoading={loading} type="submit" color="secondary">Sign in</Button>
               </form> 
               {/* Register link */}
               <div className="flex flex-col items-center justify-center space-y-2 my-6">
                 <div className="flex items-center justify-center gap-1">
                   <p className="text-[12px]">Don't have an account?</p> 
-                  <Link href="/register" color="primary">Register now!</Link>
+                  <Link href="/register" color="secondary">Register now!</Link>
                 </div>
               </div>
             </CardBody>

@@ -187,13 +187,13 @@ const Register = () => {
                   <Checkbox size="sm" defaultChecked>Accept terms and conditions</Checkbox>
                 </div>
                 {/* Submit button */}
-                <Button isLoading={loading} type="submit" color="primary">Register now</Button>
+                <Button isLoading={loading} type="submit" color="secondary">Register now</Button>
               </form> 
               {/* Login link */}
               <div className="flex flex-col items-center justify-center space-y-2 my-6">
                 <div className="flex items-center justify-center gap-1">
                   <p className="text-[12px]">Already have an account?</p> 
-                  <Link href="/login" color="primary">Login now!</Link>
+                  <Link href="/login" color="secondary">Login now!</Link>
                 </div>
               </div>
             </CardBody>

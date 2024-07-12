@@ -27,7 +27,7 @@ function ProductCard({product}) {
         </CardHeader>
         <CardBody>
         
-          <h4 className="text-lg mb-4 font-medium text-gray-900 text-ellipsis line-clamp-2">{title}</h4>
+          <h4 className="text-lg mb-4 font-medium text-gray-900 text-ellipsis poppinFont line-clamp-2">{title}</h4>
           <div className="flex items-center justify-between gap-2 text-sm text-gray-600">
             <div className="flex items-center justify-start gap-2">
               <FaRegClock /> <p>{duration} hours</p>

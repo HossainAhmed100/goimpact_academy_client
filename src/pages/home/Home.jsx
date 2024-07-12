@@ -16,10 +16,10 @@ function Home() {
       <FullWidthBanner />
       <StatisticsSection />
       <OurMission />
-      <MentionedOn />
-      <ImageBanner />
-      <OurInstructor />
       <OurCourses />
+      <OurInstructor />
+      <ImageBanner />
+      <MentionedOn />
       </div>
     </main>
   )

@@ -36,7 +36,7 @@ function OurInstructor() {
           <h2 className="text-4xl font-bold tracking-tighter">
           Meet Our <span className="text-secondary">Instructor</span> Panel 
           </h2>
-          <p className="max-w-[800px] text-muted-foreground md:text-base lg:text-base">
+          <p className="max-w-[800px] poppinFont text-muted-foreground md:text-base lg:text-base">
           We handpicked the best instructors in the fields just to give you the best quality experience. These instructors have great experience and are greatly admired in their respective fields.
           </p>
         </div>
@@ -66,8 +66,8 @@ const InstructorCard = ({item}) => {
           </div>
         </div>
         <div className="text-center space-y-2">
-          <h3 className="text-lg font-semibold">{name}</h3>
-          <p className="text-muted-foreground text-sm">
+          <h3 className="text-lg poppinFont font-semibold">{name}</h3>
+          <p className="text-muted-foreground poppinFont text-sm">
           {name} has over 10 years of experience in the industry
           </p>
         </div>

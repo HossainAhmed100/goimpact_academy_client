@@ -18,13 +18,14 @@ const OurMission = () => {
             }}
           />
         </div>
+
       <div className="flex flex-col items-center justify-center space-y-8 text-center">
         {/* Section heading */}
         <div className="space-y-4">
           <h2 className="text-4xl font-bold tracking-tighter">
             Unlock Your Potential with Our <span className="text-secondary">Bootcamp</span>
           </h2>
-          <p className="max-w-[800px] text-muted-foreground md:text-base lg:text-base">
+          <p className="max-w-[800px] poppinFont text-muted-foreground md:text-base lg:text-base">
             Our bootcamp transforms aspiring content creators into skilled professionals with hands-on learning, expert guidance, and community support.
           </p>
         </div>
@@ -73,10 +74,10 @@ const OurMission = () => {
 
 const ContentCard = ({icons, title, content}) => {
    return(
-    <div className="flex rounded-lg bg-white  border hover:border-secondary transition-all duration-300 cursor-pointer px-6 py-6 flex-col items-start gap-2">
+    <div className="flex rounded-lg border hover:border-secondary ease-in-out transition-all hover:scale-105 duration-300 cursor-pointer px-6 py-6 flex-col items-start gap-2">
     <div className="py-4">{icons}</div>
     <h3 className="text-lg font-semibold">{title}</h3>
-    <p className="text-muted-foreground text-start">{content}</p>
+    <p className="text-muted-foreground text-start poppinFont">{content}</p>
   </div>
    )
 }

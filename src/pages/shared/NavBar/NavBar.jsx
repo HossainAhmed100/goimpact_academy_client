@@ -174,11 +174,11 @@ function NavBar() {
       <NavbarContent justify="end">
         {/* Login link, only visible on large screens */}
         <NavbarItem className="hidden lg:flex">
-          <Button as={Link} color="primary" variant="light" href="/login">Login</Button>
+          <Button as={Link} color="secondary" variant="light" href="/login">Login</Button>
         </NavbarItem>
         {/* Sign Up button */}
         <NavbarItem>
-        <Button as={Link} color="primary" href="/signup" variant="flat">
+        <Button as={Link} color="secondary" href="/signup" variant="flat">
           Sign Up
         </Button>
         </NavbarItem>
